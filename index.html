@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/392674d31f.js" crossorigin="anonymous"></script>
+    <style>
+        .bg-img{
+         background-image: url(./images/home-bg.jpg);
+         background-position: left;
+         background-size: cover;
+         background-repeat: no-repeat;
+         height: 620px;
+         margin-top:-80px;
+         }
+       @media (min-width:768px) and (max-width:1040px){
+         .bg-img{
+           background-position: center;
+           background-size: cover;
+           margin-top: auto;
+         }
+        
+       }
+       .h1{
+         font-size:4.5em;
+         font-weight:750;
+       }
+       .h2{
+         font-size:2.35em;
+         color:rgba(253, 94, 192, 0.877);
+       }
+     
+       @media (min-width:375px) and (max-width:567px){
+          .h1{
+           font-size:2.5em;
+           font-weight:700;
+           
+          }
+          .h2{
+           font-size:1.12em;
+          }
+          p{
+           font-size:0.8em;
+          }
+          .bg-img{
+           height:280px;
+           margin-top:auto;
+           background-position: left;
+           background-size: calc(200%);
+           padding-top:8px;
+          }
+          .navbar-toggler{
+           padding:1px 2px;
+          }
+       }
+       @media (min-width:568px) and (max-width:767px){
+         .h1{
+           font-size:3.7em;
+           font-weight:700;
+           
+          }
+          .h2{
+           font-size:1.7em;
+          }
+          p{
+           font-size:1em;
+          }
+          .bg-img{
+           height:400px;
+           margin-top:auto;
+           background-position: center;
+           background-size: cover;
+          }
+          .navbar-toggler{
+           padding:2px 3px;
+          }
+       }
+       .a{
+         color:rgb(250, 53, 191);
+       }
+       .bg{
+         background-color: rgb(255, 248, 248);
+       }
+       .height{
+         height:500px;
+       }
+       .top-50{
+         top:42% !important;
+         color:rgba(0, 0, 0, 0.8);
+         /* mix-blend-mode: overlay; */
+         opacity:1;
+       }
+       .width{
+         width:45%;
+       }
+       .icon{
+        height:80px;
+        width:210px;
+       }
+       .font1{
+        font-size:0.8em;
+       }
+       .product-contaner{
+        height:400px;
+       }
+     </style>
+</head>
+<body>
+    <!--Heading Section-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-lg container-md">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand fs-2 fw-bold text-lg-center text-md-center" href="#">Flower Shopfy<span class="text-danger">.</span></a>
+            <div class="fs-4 d-flex column-gap-3 order-lg-3">
+              <a href="" class="text-dark"><i class="fa-solid fa-heart" aria-hidden="true"></i></a>
+              <a href="" class="text-dark"><i class="fa-solid fa-cart-shopping" aria-hidden="true"></i></a>
+              <a href="" class="text-dark"><i class="fa-solid fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div class="collapse navbar-collapse fs-5 fw-semibold ms-lg-5" id="navbarTogglerDemo03">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 column-gap-5">
+                <li class="nav-item">
+                  <a class="nav-link active text-body-tertiary" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-body-tertiary" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-body-tertiary" aria-current="page" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-body-tertiary" aria-current="page" href="#">Review</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active text-body-tertiary" aria-current="page" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+      
+      </div>
+        </nav>
+      
+        <!--Create section-->
+        <div class=" bg-img d-lg-flex flex-lg-wrap align-content-lg-center">
+          <div class="container-fluid container-lg container-md">
+            <h1 class="h1">Fresh Flowers</h1>
+            <h2 class="h2">Natural &amp; Beautiful Flowers</h2>
+            <p class="fs-lg-5 text-capitalize text-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Perferendis sunt tempora commodi veritatis quas unde <br>sit est nemo. Enim, suscipit?</p>
+            <a href="#" class="btn btn-dark px-4 py-1 rounded-pill" role="button" data-bs-toggle="button">Shop Now</a>
+          </div>
+      </div>
+      <div class="height d-lg-flex flex-column justify-content-around">
+        <div class="container-lg fs-1 fw-bold text-center bg"><span class="a ">About</span> Us</div>
+        <div class="container-lg d-lg-flex justify-content-between">
+          <div class="w-50 bg-body-white shadow position-relative">
+          <div class="w-100">
+            <div class="p-3 w-100 d-lg-flex flex-lg-wrap align-content-lg-center">
+              <video src="./images/about-vid.mp4" class=" w-100 h-100" autoplay="" loop=""></video>
+              <!-- <h1 class="fw-bolder bg-white p-1 w-100 position-absolute top-50 text-center">Best Flower Sellers</h1> -->
+            </div>
+            <h1 class="fw-bold bg-white p-1 w-100 position-absolute top-50 text-center"><span class="opacity-50">Best Flower Sellers</span></h1>
+        </div>
+        </div>
+          <!-- <div class="h-50"><video src="./images/about-vid.mp4" class="object-fit-fill" autoplay></video></div>-->
+          <div class="width d-flex flex-column justify-content-around">
+            <h2 class="fw-bold">Why Choose Us?</h2>
+            <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur itaque doloribus earum modi maxime! Sint facere omnis assumenda aliquam minus. Ut ea maiores a porro vel in nulla maxime iure.</p>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet ut beatae ipsam, asperiores harum odit mollitia veritatis ratione eius ad velit, fugit dolor! Aperiam, in. Animi ab error aspernatur!</p>
+            <button class="btn btn-secondary w-25 rounded-pill" type="button">Learn More</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-body-secondary d-lg-flex flex-lg-wrap align-content-lg-center" style="height: 200px;">
+        <div class="container-lg d-lg-flex flex-row justify-content-between">
+
+           <div class=" bg-white d-flex justify-content-evenly flex-lg-wrap align-content-lg-center icon">
+            <div class="fs-1"><i class="fa-solid fa-truck" aria-hidden="true"></i></div>
+            <div class="my-auto">
+              <div class="fw-bold">Free Delivery</div>
+              <div class="font1">On All Orders</div>
+            </div>
+           </div>
+           
+            <div class=" bg-white d-flex justify-content-evenly flex-lg-wrap align-content-lg-center icon">
+                <div class="fs-1"><i class="fa-solid fa-sack-dollar"></i></div>
+                <div class="my-auto">
+                  <div class="fw-bold">10 Days Returns</div>
+                  <div class="font1">Moneyback Guarantee</div>
+                </div>
+               </div>
+           
+           
+            <div class="bg-white d-flex justify-content-evenly flex-lg-wrap align-content-lg-center icon">
+                <div class="fs-1"><i class="fa-solid fa-gift"></i></div>
+                <div class="my-auto">
+                  <div class="fw-bold">Offer & Gifts</div>
+                  <div class="font1">On All Orders</div>
+                </div>
+               </div>
+           
+           
+            <div class=" bg-white d-flex justify-content-evenly flex-lg-wrap align-content-lg-center icon">
+                <div class="fs-1"><i class="fa-solid fa-credit-card"></i></div>
+                <div class="my-auto">
+                  <div class="fw-bold">Secure Payments</div>
+                  <div class="font1">Protected By Paypal</div>
+                </div>
+               </div>
+
+        </div>
+      </div>
+
+      <div class="container-lg fs-1 fw-bolder text-center bg my-5">Latest <span class="a">Products</span></div>
+
+      <div class="container-lg d-flex product-contaner p-0 column-gap-3">
+
+        <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+          <div class="bg text-center a fs-5" style="width: 17%;">-10%</div>
+          <div class="text-center"><img src="./images/img-1.jpg" width="70%"/></div>
+          <div class="text-center">
+            <div class="fw-bold fs-2">Flower Pot</div>
+            <div class=" d-flex justify-content-center column-gap-2">
+              <div><span class="fw-bold fs-2">$12.99</span></div>
+              <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+          <div class="bg text-center a fs-5" style="width: 17%;">-15%</div>
+          <div class="text-center"><img src="./images/img-2.jpg" width="70%"/></div>
+          <div class="text-center">
+            <div class="fw-bold fs-2">Flower Pot</div>
+            <div class=" d-flex justify-content-center column-gap-2">
+              <div><span class="fw-bold fs-2">$12.99</span></div>
+              <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+          <div class="bg text-center a fs-5" style="width: 17%;">-5%</div>
+          <div class="text-center"><img src="./images/img-3.jpg" width="70%"/></div>
+          <div class="text-center">
+            <div class="fw-bold fs-2">Flower Pot</div>
+            <div class=" d-flex justify-content-center column-gap-2">
+              <div><span class="fw-bold fs-2">$12.99</span></div>
+              <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="container-lg d-flex product-contaner p-0 column-gap-3 my-3">
+
+        <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+          <div class="bg text-center a fs-5" style="width: 17%;">-20%</div>
+          <div class="text-center"><img src="./images/img-4.jpg" width="70%"/></div>
+          <div class="text-center">
+            <div class="fw-bold fs-2">Flower Pot</div>
+            <div class=" d-flex justify-content-center column-gap-2">
+              <div><span class="fw-bold fs-2">$12.99</span></div>
+              <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+          <div class="bg text-center a fs-5" style="width: 17%;">-17%</div>
+          <div class="text-center"><img src="./images/img-5.jpg" width="70%"/></div>
+          <div class="text-center">
+            <div class="fw-bold fs-2">Flower Pot</div>
+            <div class=" d-flex justify-content-center column-gap-2">
+              <div><span class="fw-bold fs-2">$12.99</span></div>
+              <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+          <div class="bg text-center a fs-5" style="width: 17%;">-3%</div>
+          <div class="text-center"><img src="./images/img-6.jpg" width="70%"/></div>
+          <div class="text-center">
+            <div class="fw-bold fs-2">Flower Pot</div>
+            <div class=" d-flex justify-content-center column-gap-2">
+              <div><span class="fw-bold fs-2">$12.99</span></div>
+              <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="container-lg d-flex product-contaner p-0 column-gap-3">
+
+          <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+            <div class="bg text-center a fs-5" style="width: 17%;">-18%</div>
+            <div class="text-center"><img src="./images/img-7.jpg" width="70%"/></div>
+            <div class="text-center">
+              <div class="fw-bold fs-2">Flower Pot</div>
+              <div class=" d-flex justify-content-center column-gap-2">
+                <div><span class="fw-bold fs-2">$12.99</span></div>
+                <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+            <div class="bg text-center a fs-5" style="width: 17%;">-10%</div>
+            <div class="text-center"><img src="./images/img-8.jpg" width="70%"/></div>
+            <div class="text-center">
+              <div class="fw-bold fs-2">Flower Pot</div>
+              <div class=" d-flex justify-content-center column-gap-2">
+                <div><span class="fw-bold fs-2">$12.99</span></div>
+                <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="product-contaner col-4 p-2 d-lg-flex flex-column justify-content-between shadow">
+            <div class="bg text-center a fs-5" style="width: 17%;">-5%</div>
+            <div class="text-center"><img src="./images/img-9.jpg" width="70%"/></div>
+            <div class="text-center">
+              <div class="fw-bold fs-2">Flower Pot</div>
+              <div class=" d-flex justify-content-center column-gap-2">
+                <div><span class="fw-bold fs-2">$12.99</span></div>
+                <div class="d-flex flex-column justify-content-center text-secondary"><span class="fs-5"><del>$15.99</del></span></div>
+              </div>
+            </div>
+          </div>
+          </div>
+        
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     </body>
+</html>
